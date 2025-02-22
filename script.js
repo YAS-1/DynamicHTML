@@ -28,7 +28,6 @@ colorPicker.addEventListener('input', function() {
 
 color.onclick = function(){
     let value = picker.value;
-
     body.style.background = value;
 }
 
